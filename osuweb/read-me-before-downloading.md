@@ -4,4 +4,10 @@
 
 # IT WOULD BE A PAIN IN THE ASS
 
-so download, open index.html, play osu!
+so download, open index.html, play osu! 
+
+## wait how tf do i download?
+
+go to osuweb-v1.4.0.zip and click "veiw raw" or the download icon at the top-ish
+
+open the zip, double click index.html, and play sum osu!
