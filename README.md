@@ -1,3 +1,4 @@
 # github page :)
-funny stuff I ad cuz y not 
+funny stuff I add cuz y not 
+
 (ur welcome schoolkids)
