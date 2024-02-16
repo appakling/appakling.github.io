@@ -1,8 +1,17 @@
 # appak's "archive"
-funny stuff I add cuz y not, it's all a big joke
-(ur welcome schoolkids)
+projects I like and want to "archive" (copy and steal for later)
 
-do you want to contribute a web-based project that would fit in? contact me on 
+it started off as an unblocked site and is slowly turning into a big bookmark page lol
+
+## TO DO
+
+- some tools maybe
+- more funny games I want to poke around in
+- nice layout maybe
+- learn some more css and web development
+- get eggs
+
+## do you want to contribute a web-based project that would fit in? contact me on:
 
 discord: appakling 
 
