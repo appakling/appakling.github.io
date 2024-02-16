@@ -13,7 +13,7 @@ created only bc I was bored of stealing other stuff :skull:
 - more pages :)
 - get eggs
 
-## do you want to contribute a web-based project that would fit in? contact me on:
+## wanna talk to me abt something? you can contact me on these sites (ranked in order of "yea lol I'll check this")
 
 discord: appakling 
 
