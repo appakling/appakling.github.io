@@ -2,7 +2,7 @@
 just a funky website. here are the pages:
 - projects I like and want to "archive" (copy and steal for later)
 
-created only bc I was bored of stealing other stuff :skull:
+created only bc I was bored of stealing other stuff :skull: (I also need to know more html and css I guess)
 
 ## TO DO
 
