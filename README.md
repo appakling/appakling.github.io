@@ -1,7 +1,8 @@
-# appak's "archive"
-projects I like and want to "archive" (copy and steal for later)
+# appak's github pages page
+just a funky website. here are the pages:
+- projects I like and want to "archive" (copy and steal for later)
 
-it started off as an unblocked site and is slowly turning into a big bookmark page lol
+created only bc I was bored of stealing other stuff :skull:
 
 ## TO DO
 
@@ -9,6 +10,7 @@ it started off as an unblocked site and is slowly turning into a big bookmark pa
 - more funny games I want to poke around in
 - nice layout maybe
 - learn some more css and web development
+- more pages :)
 - get eggs
 
 ## do you want to contribute a web-based project that would fit in? contact me on:
