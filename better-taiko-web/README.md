@@ -3,3 +3,9 @@ I'm holding this here until I can set this up using a raspberry pi
 
 ## if you REALLy want to play some taiko in the web, go to https://taiko.ani-nya.com
 ## I COULD NOT FIND THE SOURCE CODE FOR THIS SPECIFIC TAIKO WEB INSTANCE, BECAUSE IT'S BASED OFF OF TAIKO.BUI.BM (or something) THAT WAS DMCA STRIKED :(
+
+# how to set up:
+
+download the zip, open the setup.md, follow those instructions (YOU NEED A LINUX SERVER)
+
+if you set it up can you send me the website link? thanks :)
