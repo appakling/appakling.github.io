@@ -1,4 +1,6 @@
 <!DOCTYPE HTML>
+
+<!-- bitsy 8.0 slightly modded -->
 <html>
 	<head>
 		<title>bitsy editor</title>
@@ -112,7 +114,7 @@
 				on_paint_avatar();
 				drawing_data = [
 					[0,0,0,1,1,0,0,0],
-					[0,0,0,1,1,0,0,0],
+					[0,0,1,1,1,1,0,0],
 					[0,0,0,1,1,0,0,0],
 					[0,0,1,1,1,1,0,0],
 					[0,1,1,1,1,1,1,0],
@@ -150,10 +152,10 @@
 				drawing_data = [
 					[1,1,1,1,1,1,1,1],
 					[1,0,0,0,0,0,0,1],
-					[1,0,0,0,0,0,0,1],
-					[1,0,0,1,1,0,0,1],
-					[1,0,0,1,1,0,0,1],
-					[1,0,0,0,0,0,0,1],
+					[1,0,1,1,1,1,0,1],
+					[1,0,1,0,0,1,0,1],
+					[1,0,1,0,0,1,0,1],
+					[1,0,1,1,1,1,0,1],
 					[1,0,0,0,0,0,0,1],
 					[1,1,1,1,1,1,1,1]
 				];
@@ -695,7 +697,7 @@
 			bitsy editor v0
 		</div>
 		<div class="panel" id="about">
-			~ about bitsy ~ <br>
+			~ about bitsy 8.0 ~ <br>
 			hi! bitsy is a little editor for little games or worlds. <br>
 			the goal is to make it easy to make games where you <br>
 			can walk around and talk to people and be somewhere. <br>
@@ -726,6 +728,7 @@
 			special thanks to: <br>
 			* mary-margaret <br>
 			* seattle game meetup peeps <br>
+			* copied by SandwichBlam 2/20/24
 			<br>
 			use it in good health!
 			<br>
@@ -742,7 +745,7 @@
 			</form>
 			<canvas id="game"></canvas>
 			<br>
-			<button onclick="toggleMapGrid();"> show/hide tile grid </button>
+			<button onclick="toggleMapGrid();"> grid toggle </button>
 		</div>
 		<div class="panel">
 			~ paint ~ <br>
@@ -760,7 +763,7 @@
 			<br>
 			<div id="wall" style="display:none;">is this tile a wall? <input type="checkbox" id="wallCheckbox" onchange="on_toggle_wall();"> </div>
 			<div id="dialog" style="display:none;">dialog: <input type="text" id="dialogText" onchange="on_change_dialog();"></div>
-			<button onclick="toggleGrid();"> show/hide pixel grid </button>
+			<button onclick="toggleGrid();"> grid toggle </button>
 		</div>
 		<div class="panel">
 			~ colors ~ <br>
@@ -778,3 +781,15 @@
 			<textarea id="game_data" style="width:300px;height:300px;" onchange="on_game_data_change();"></textarea>
 	</body>
 </html>
+
+
+<!-- 
+			
+this copy and port is by SandwichBlam/appak. no code here is by him. it is all property of Adam Le Doux. 
+All appak did was copy the code and change some sprites for the hell of it, and rename grid toggle buttons to grid toggle.
+find me online at github.com/sandwichblamwich, contact me on discort at appakling, or contact my spacehey at spacehey.com/appak
+if any of that is dumb, contact me by email at appakcat@gmail.com
+
+GET THE REAL BITSY AT https://github.com/le-doux/bitsy/tree/main
+			
+-->
