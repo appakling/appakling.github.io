@@ -2,7 +2,6 @@
 just a funky website. here are the pages:
 - projects I like and want to "archive" (copy and steal for later)
 - a chatroom I copied so I can chat with friends I guess
-- bitsy 8.0 but I changed some stuff
 - cool stuff
 - toki pona dictionary (thanks zrajm)
 
