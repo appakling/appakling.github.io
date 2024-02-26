@@ -1,9 +1,10 @@
 # appak's github pages page
-just a funky website. here are the pages:
+just a funky website. here are the pages / things:
 - projects I like and want to "archive" (copy and steal for later)
 - a chatroom I copied so I can chat with friends I guess
 - cool stuff
 - toki pona dictionary (thanks zrajm)
+- amen break samples to make breakcore :)
 
 created only bc I was bored of stealing other stuff :skull: (I also need to know more html and css I guess, idk)
 
