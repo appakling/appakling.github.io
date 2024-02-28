@@ -6,7 +6,8 @@ just a funky website. here are the pages / things:
 - toki pona dictionary (thanks zrajm)
 - amen break samples to make breakcore :)
 
-created only bc I was bored of stealing other stuff :skull: (I also need to know more html and css I guess, idk)
+created only bc I was bored of stealing other stuff in their own repo :skull: (I also need to know more html and css I guess, idk)
+
 
 ## TO DO
 
