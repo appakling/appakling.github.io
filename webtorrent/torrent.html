@@ -16,9 +16,71 @@
 </head>
 <body>
   <div style="text-align:center">
-  <h1>chtrm</h1>
-    <p>literally webtorrent :)</p>
+    <h1>Download something with webtorrent (download this file and go to <a href="https://webtorrent.io/intro">webtorrent.io/intro</a> to do it yourself. :)</h1>
+
+    <form>
+      <label for="torrentId">Download from a magnet link: </label>
+      <input name="torrentId", placeholder="magnet:" value="magnet:?xt=urn:btih:a145265fa648e684e4d68ade89c28ac21cad87eb&dn=The Madagascar Penguins In A Christmas Caper (2005) [720p] [BluRay] [YTS.MX]&tr=udp://tracker.opentrackr.org:1337/announce&tr=udp://p4p.arenabg.com:1337/announce&tr=udp://tracker.torrent.eu.org:451/announce&tr=udp://tracker.dler.org:6969/announce&tr=udp://open.stealth.si:80/announce&tr=udp://ipv4.tracker.harry.lu:80/announce&tr=https://opentracker.i2p.rocks:443/announce">
+      <button type="submit">Download</button>
+    </form>
+
+    <h2>Log</h2>
+    <div class="log"></div>
+
+    <!-- Include the latest version of WebTorrent -->
     <script src="https://cdn.jsdelivr.net/npm/webtorrent@latest/webtorrent.min.js"></script>
+
+    <script>
+      const client = new WebTorrent()
+
+      client.on('error', function (err) {
+        console.error('ERROR: ' + err.message)
+      })
+
+      document.querySelector('form').addEventListener('submit', function (e) {
+        e.preventDefault() // Prevent page refresh
+
+        const torrentId = document.querySelector('form input[name=torrentId]').value
+        log('Adding ' + torrentId)
+        client.add(torrentId, onTorrent)
+      })
+
+      function onTorrent (torrent) {
+        log('Got torrent metadata!')
+        log(
+          'Torrent info hash: ' + torrent.infoHash + ' ' +
+          '<a href="' + torrent.magnetURI + '" target="_blank">[Magnet URI]</a> ' +
+          '<a href="' + torrent.torrentFileBlobURL + '" target="_blank" download="' + torrent.name + '.torrent">[Download .torrent]</a>'
+        )
+
+        // Print out progress every 5 seconds
+        const interval = setInterval(function () {
+          log('Progress: ' + (torrent.progress * 100).toFixed(1) + '%')
+        }, 5000)
+
+        torrent.on('done', function () {
+          log('Progress: 100%')
+          clearInterval(interval)
+        })
+
+        // Render all files into to the page
+        torrent.files.forEach(function (file) {
+          file.appendTo('.log')
+          log('(Blob URLs only work if the file is loaded from a server. "http//localhost" works. "file://" does not.)')
+          file.getBlobURL(function (err, url) {
+            if (err) return log(err.message)
+            log('File done.')
+            log('<a href="' + url + '">Download full file: ' + file.name + '</a>')
+          })
+        })
+      }
+
+      function log (str) {
+        const p = document.createElement('p')
+        p.innerHTML = str
+        document.querySelector('.log').appendChild(p)
+      }
+    </script>
   </div>
 </body>
 </html>
