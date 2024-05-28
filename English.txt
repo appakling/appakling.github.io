@@ -4,7 +4,6 @@
 # Newlines automatically create a Page Break, unless there is an {n} command on the previous line
 # Commands: Anything inside of curly braces {...} is a command and should not be translated.
 
-# ENGLISH TXT CRACKED BY CARDO
 
 # Inline Text Commands:
 # {~}wavy text{/~}
@@ -545,7 +544,7 @@
 		{trigger 3 resume laughing}
 
 	CH0_END=
-		You can do this. ENGLISH.TXT CRACKED BY CARDO, HAVE FUN CLIMBING
+		You can do this.
 
 # *** Chapter 01 ***
 
