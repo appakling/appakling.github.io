@@ -1,6 +1,7 @@
 # appak's github pages page
 just a funky website. here are the pages / things:
 - projects I like and want to "archive" (copy and steal for later)
+- flash games (ruffle)
 - a chatroom I copied so I can chat with friends I guess
 - cool stuff
 - toki pona dictionary (thanks zrajm)
@@ -13,7 +14,6 @@ created only bc I was bored of stealing other stuff in their own repo :skull: (I
 
 - some tools maybe
 - more funny games I want to poke around in
-- nice layout maybe
 - learn some more css and web development
 - more pages :)
 - get eggs
