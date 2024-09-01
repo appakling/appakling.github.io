@@ -22,6 +22,27 @@
       "type": "Animation"
     },
     {
+      "location": "swfs/meatboy.swf",
+      "title": "Super Meat Boy",
+      "author": "i forgo",
+      "authorLink": "https://google.com",
+      "type": "Game"
+    },
+    {
+      "location": "swfs/SuperSmash.swf",
+      "title": "Super Smash Flash",
+      "author": "MacLeod Gaming",
+      "authorLink": "https://www.mcleodgaming.com/",
+      "type": "Game"
+    },
+    {
+      "location": "bloons-tower-defense-5.swf",
+      "title": "BTD5",
+      "author": "idk",
+      "authorLink": "https://google.com",
+      "type": "Game"
+    },
+    {
       "location": "swfs/saturday_morning_watchmen.swf",
       "title": "Saturday Morning Watchmen",
       "author": "Harry Partridge",
