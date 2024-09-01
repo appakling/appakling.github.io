@@ -64,6 +64,20 @@
       "authorLink": "https://www.hotbryan.com",
       "type": "Game"
     },
+     {
+      "location": "swfs/Portal_wcs2.swf",
+      "title": "Portal Flash",
+      "author": "i dunno",
+      "authorLink": "idk",
+      "type": "Game"
+    },
+    {
+      "location": "https://files.catbox.moe/kk84m9.swf",
+      "title": "Portal Flash",
+      "author": "WARNING",
+      "authorLink": "THIS MIGHT BREAK",
+      "type": "Game"
+    },
     {
       "location": "swfs/wasted_sky.swf",
       "title": "Wasted Sky",
