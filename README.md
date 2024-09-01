@@ -12,13 +12,9 @@ created only bc I was bored of stealing other stuff in their own repo :skull: (I
 
 ## TO DO
 
-- some tools maybe
-- more funny games I want to poke around in
-- learn some more css and web development
-- more pages :)
-- get eggs
+- chill
 
-## wanna talk to me abt something? you can contact me on these sites (ranked in order of "yea lol I'll check this")
+## contact me here (discord recommended)
 
 discord: appakling 
 
