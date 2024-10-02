@@ -1,0 +1,39 @@
+  body {
+    margin: 25px;
+    background-color: Black;
+    font-family: Verdana, sans-serif;
+    font-size: 14px;
+  }
+  h1   {
+    font-size: 35px;
+    font-weight: normal;
+    margin-top: 5px;
+    color: white;
+    text-align: center;
+  }
+  p    {
+    font-size: 20px;
+    font-weight: normal;
+    margin-top: 5px;
+    color: white;
+    text-align: center;
+  }
+  h3   {
+    color: white;
+    text-align: center;
+  }
+  h2   {
+    color: white; 
+    text-align: center;
+  }
+  b    {
+    color: white; 
+    text-align: center;
+  }
+button {}
+  i    {
+    color: white; text-align: center;
+  }
+  a    {
+    color: grey; text-align: center;
+  }
