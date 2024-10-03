@@ -12,7 +12,10 @@ created only bc I was bored of stealing other stuff in their own repo :skull: (I
 
 ## TO DO
 
-- chill
+- [X] chill
+- [ ] make it look similar to starg3n
+- [ ] more things
+- [ ] get eggs
 
 ## contact me here (discord recommended)
 
